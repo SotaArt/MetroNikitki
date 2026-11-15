@@ -27,41 +27,41 @@ const COLOR_NAME: Record<Color, string> = {
 }
 
 const COLOR_IMAGE: Record<Color, string> = {
-  red: '/wagons/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D1%8B%D0%B9.png',
-  orange: '/wagons/%D0%9E%D1%80%D0%B0%D0%BD%D0%B6%D0%B5%D0%B2%D1%8B%D0%B9.png',
-  yellow: '/wagons/%D0%96%D0%B5%D0%BB%D1%82%D1%8B%D0%B9.png',
-  green: '/wagons/%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D1%8B%D0%B9.png',
-  cyan: '/wagons/%D0%93%D0%BE%D0%BB%D1%83%D0%B1%D0%BE%D0%B9.png',
-  blue: '/wagons/%D0%A1%D0%B8%D0%BD%D0%B8%D0%B9.png',
-  violet: '/wagons/%D0%A4%D0%B8%D0%BE%D0%BB%D0%B5%D1%82%D0%BE%D0%B2%D1%8B%D0%B9.png',
+  red: '/MetroNikitki/wagons/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D1%8B%D0%B9.png',
+  orange: '/MetroNikitki/wagons/%D0%9E%D1%80%D0%B0%D0%BD%D0%B6%D0%B5%D0%B2%D1%8B%D0%B9.png',
+  yellow: '/MetroNikitki/wagons/%D0%96%D0%B5%D0%BB%D1%82%D1%8B%D0%B9.png',
+  green: '/MetroNikitki/wagons/%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D1%8B%D0%B9.png',
+  cyan: '/MetroNikitki/wagons/%D0%93%D0%BE%D0%BB%D1%83%D0%B1%D0%BE%D0%B9.png',
+  blue: '/MetroNikitki/wagons/%D0%A1%D0%B8%D0%BD%D0%B8%D0%B9.png',
+  violet: '/MetroNikitki/wagons/%D0%A4%D0%B8%D0%BE%D0%BB%D0%B5%D1%82%D0%BE%D0%B2%D1%8B%D0%B9.png',
 }
-const HEAD_IMAGE = '/wagons/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%BE%D0%B9.png'
-const BONUS_IMAGE = '/wagons/%D0%91%D0%BE%D0%BD%D1%83%D1%81.png'
-const ESCALATOR_IMAGE = '/wagons/%D0%AD%D0%BA%D1%81%D0%BA%D0%BE%D0%BB%D0%B0%D1%82%D0%BE%D1%80.png'
-const TITLE_IMAGE = '/wagons/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F.png'
-const PLAY_BUTTON_IMAGE = '/wagons/%D0%9A%D0%BD%D0%BE%D0%BF%D0%BA%D0%B0%20%D0%B8%D0%B3%D1%80%D0%B0%D1%82%D1%8C.png'
+const HEAD_IMAGE = '/MetroNikitki/wagons/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%BE%D0%B9.png'
+const BONUS_IMAGE = '/MetroNikitki/wagons/%D0%91%D0%BE%D0%BD%D1%83%D1%81.png'
+const ESCALATOR_IMAGE = '/MetroNikitki/wagons/%D0%AD%D0%BA%D1%81%D0%BA%D0%BE%D0%BB%D0%B0%D1%82%D0%BE%D1%80.png'
+const TITLE_IMAGE = '/MetroNikitki/wagons/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F.png'
+const PLAY_BUTTON_IMAGE = '/MetroNikitki/wagons/%D0%9A%D0%BD%D0%BE%D0%BF%D0%BA%D0%B0%20%D0%B8%D0%B3%D1%80%D0%B0%D1%82%D1%8C.png'
 
 const STATIONS: { name: string; image: string }[] = [
-  { name: 'Царицыно', image: '/wagons/%D0%A6%D0%B0%D1%80%D0%B8%D1%86%D1%8B%D0%BD%D0%BE.png' },
-  { name: 'Автозаводская', image: '/wagons/%D0%90%D0%B2%D1%82%D0%BE%D0%B7%D0%B0%D0%B2%D0%BE%D0%B4%D1%81%D0%BA%D0%B0%D1%8F.png' },
-  { name: 'Баррикадная', image: '/wagons/%D0%91%D0%B0%D1%80%D1%80%D0%B8%D0%BA%D0%B0%D0%B4%D0%BD%D0%B0%D1%8F.png' },
-  { name: 'Ботанический сад', image: '/wagons/%D0%91%D0%BE%D1%82%D0%B0%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D1%81%D0%B0%D0%B4.png' },
-  { name: 'ВДНХ', image: '/wagons/%D0%92%D0%94%D0%9D%D0%A5.png' },
-  { name: 'Деловой центр', image: '/wagons/%D0%94%D0%B5%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%86%D0%B5%D0%BD%D1%82%D1%80.png' },
-  { name: 'Каширская', image: '/wagons/%D0%9A%D0%B0%D1%88%D0%B8%D1%80%D1%81%D0%BA%D0%B0%D1%8F.png' },
-  { name: 'Коломенская', image: '/wagons/%D0%9A%D0%BE%D0%BB%D0%BE%D0%BC%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F.png' },
-  { name: 'Красные ворота', image: '/wagons/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%BE%D1%80%D0%BE%D1%82%D0%B0.png' },
-  { name: 'Кропоткинская', image: '/wagons/%D0%9A%D1%80%D0%BE%D0%BF%D0%BE%D1%82%D0%BA%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F.png' },
-  { name: 'Кутузовская', image: '/wagons/%D0%9A%D1%83%D1%82%D1%83%D0%B7%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F.png' },
-  { name: 'Маяковская', image: '/wagons/%D0%9C%D0%B0%D1%8F%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F.png' },
-  { name: 'Павелецкая', image: '/wagons/%D0%9F%D0%B0%D0%B2%D0%B5%D0%BB%D0%B5%D1%86%D0%BA%D0%B0%D1%8F.png' },
-  { name: 'Парк победы', image: '/wagons/%D0%9F%D0%B0%D1%80%D0%BA%20%D0%BF%D0%BE%D0%B1%D0%B5%D0%B4%D1%8B.png' },
-  { name: 'Речной вокзал', image: '/wagons/%D0%A0%D0%B5%D1%87%D0%BD%D0%BE%D0%B9%20%D0%B2%D0%BE%D0%BA%D0%B7%D0%B0%D0%BB.png' },
-  { name: 'Спортивная', image: '/wagons/%D0%A1%D0%BF%D0%BE%D1%80%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F.png' },
-  { name: 'Тверская', image: '/wagons/%D0%A2%D0%B2%D0%B5%D1%80%D1%81%D0%BA%D0%B0%D1%8F.png' },
-  { name: 'Театральная', image: '/wagons/%D0%A2%D0%B5%D0%B0%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F.png' },
-  { name: 'Технопарк', image: '/wagons/%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BF%D0%B0%D1%80%D0%BA.png' },
-  { name: 'Третьяковская', image: '/wagons/%D0%A2%D1%80%D0%B5%D1%82%D1%8C%D1%8F%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F.png' }
+  { name: 'Царицыно', image: '/MetroNikitki/wagons/%D0%A6%D0%B0%D1%80%D0%B8%D1%86%D1%8B%D0%BD%D0%BE.png' },
+  { name: 'Автозаводская', image: '/MetroNikitki/wagons/%D0%90%D0%B2%D1%82%D0%BE%D0%B7%D0%B0%D0%B2%D0%BE%D0%B4%D1%81%D0%BA%D0%B0%D1%8F.png' },
+  { name: 'Баррикадная', image: '/MetroNikitki/wagons/%D0%91%D0%B0%D1%80%D1%80%D0%B8%D0%BA%D0%B0%D0%B4%D0%BD%D0%B0%D1%8F.png' },
+  { name: 'Ботанический сад', image: '/MetroNikitki/wagons/%D0%91%D0%BE%D1%82%D0%B0%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D1%81%D0%B0%D0%B4.png' },
+  { name: 'ВДНХ', image: '/MetroNikitki/wagons/%D0%92%D0%94%D0%9D%D0%A5.png' },
+  { name: 'Деловой центр', image: '/MetroNikitki/wagons/%D0%94%D0%B5%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%86%D0%B5%D0%BD%D1%82%D1%80.png' },
+  { name: 'Каширская', image: '/MetroNikitki/wagons/%D0%9A%D0%B0%D1%88%D0%B8%D1%80%D1%81%D0%BA%D0%B0%D1%8F.png' },
+  { name: 'Коломенская', image: '/MetroNikitki/wagons/%D0%9A%D0%BE%D0%BB%D0%BE%D0%BC%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F.png' },
+  { name: 'Красные ворота', image: '/MetroNikitki/wagons/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%BE%D1%80%D0%BE%D1%82%D0%B0.png' },
+  { name: 'Кропоткинская', image: '/MetroNikitki/wagons/%D0%9A%D1%80%D0%BE%D0%BF%D0%BE%D1%82%D0%BA%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F.png' },
+  { name: 'Кутузовская', image: '/MetroNikitki/wagons/%D0%9A%D1%83%D1%82%D1%83%D0%B7%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F.png' },
+  { name: 'Маяковская', image: '/MetroNikitki/wagons/%D0%9C%D0%B0%D1%8F%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F.png' },
+  { name: 'Павелецкая', image: '/MetroNikitki/wagons/%D0%9F%D0%B0%D0%B2%D0%B5%D0%BB%D0%B5%D1%86%D0%BA%D0%B0%D1%8F.png' },
+  { name: 'Парк победы', image: '/MetroNikitki/wagons/%D0%9F%D0%B0%D1%80%D0%BA%20%D0%BF%D0%BE%D0%B1%D0%B5%D0%B4%D1%8B.png' },
+  { name: 'Речной вокзал', image: '/MetroNikitki/wagons/%D0%A0%D0%B5%D1%87%D0%BD%D0%BE%D0%B9%20%D0%B2%D0%BE%D0%BA%D0%B7%D0%B0%D0%BB.png' },
+  { name: 'Спортивная', image: '/MetroNikitki/wagons/%D0%A1%D0%BF%D0%BE%D1%80%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F.png' },
+  { name: 'Тверская', image: '/MetroNikitki/wagons/%D0%A2%D0%B2%D0%B5%D1%80%D1%81%D0%BA%D0%B0%D1%8F.png' },
+  { name: 'Театральная', image: '/MetroNikitki/wagons/%D0%A2%D0%B5%D0%B0%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F.png' },
+  { name: 'Технопарк', image: '/MetroNikitki/wagons/%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BF%D0%B0%D1%80%D0%BA.png' },
+  { name: 'Третьяковская', image: '/MetroNikitki/wagons/%D0%A2%D1%80%D0%B5%D1%82%D1%8C%D1%8F%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F.png' }
 ]
 
 
@@ -833,7 +833,7 @@ export default function App() {
           </div>
           {canShowKick(state) && (
             <button className="kick-btn kick-btn-global" onClick={onKick} type="button" title="Дать поезду пинка — отправить" aria-label="Дать поезду пинка">
-              <img src="/wagons/%D0%9F%D0%B8%D0%BD%D0%BE%D0%BA.png" alt="Пинок" className="kick-icon kick-img" />
+              <img src="/MetroNikitki/wagons/%D0%9F%D0%B8%D0%BD%D0%BE%D0%BA.png" alt="Пинок" className="kick-icon kick-img" />
             </button>
           )}
           {state.queueTrains.length > 0 && (
