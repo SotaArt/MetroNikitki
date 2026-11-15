@@ -19,7 +19,7 @@ export default defineConfig({
         start_url: '/MetroNikitki/',
         scope: '/MetroNikitki/',
         display: 'standalone',
-        orientation: 'landscape',
+        orientation: 'portrait',
         background_color: '#8fdcff',
         theme_color: '#7fd3ff',
         lang: 'ru',
